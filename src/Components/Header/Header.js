@@ -136,7 +136,7 @@ function Header() {
             <nav className="bg-pink-100 text-white pt-[100px] pb-4">
                 <div className="container mx-auto flex justify-center space-x-4 text-black">
                     <Link to="/">Home</Link>
-                    <Link to="/categories">Categories</Link>
+                    {/* <Link to="/categories">Categories</Link> */}
                     <Link to="/about">About </Link>
                     <Link to="/contact">Contact </Link>
 
