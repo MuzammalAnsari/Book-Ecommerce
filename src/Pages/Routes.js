@@ -17,12 +17,6 @@ export default function Index() {
                 <Route path='/dashboard/*' element={<PrivateRoute Component={Dashboard} allowedRoles={["superAdmin", "customer"]} />} />
                 <Route path='/auth/*' element={<Auth />} />
             </Routes>
-
-            {/* <Routes>
-                <Route path='/*' element={<Frontend />} />
-                <Route path='/dashboard/*' element={<Dashboard />} />
-                <Route path='/auth/*' element={<Auth />} />
-            </Routes> */}
         </>
     )
 }
