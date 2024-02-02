@@ -76,16 +76,16 @@ function Header() {
                         </div>
                     </div>
                     <div className="hidden md:flex items-center space-x-4">
-                        <Link to="/dashboard" className="text-white ms-6 boarder bg-yellow-400 p-2 rounded-3xl mt-3">Dashboard</Link>
+                        {/* <Link to="/dashboard" className="text-white ms-6 boarder bg-light-400 p-2 rounded-3xl mt-3">Dashboard</Link> */}
                         {!isAuth ?
                             <Link to="/auth/login">
-                                <button className="bg-blue-500 border hover:bg-red-600 text-white py-2 px-4 rounded-full mt-2">
+                                <button className="bg-blue-500 border hover:bg-blue-600 text-white py-2 px-4 rounded-full mt-2">
                                     Sign in
                                 </button>
                             </Link>
                             :
                             <Link to="/">
-                                <button className="bg-red-500 hover:bg-blue-600 text-white py-2 px-4 rounded-full mt-2" onClick={handleLogout}>
+                                <button className="bg-white-500 border hover:bg-blue-600 text-white py-2 px-4 rounded-full mt-2" onClick={handleLogout}>
                                     Log out
                                 </button>
                             </Link>
