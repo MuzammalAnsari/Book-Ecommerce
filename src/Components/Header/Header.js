@@ -76,7 +76,7 @@ function Header() {
                         </div>
                     </div>
                     <div className="hidden md:flex items-center space-x-4">
-                        <Link to="/dashboard" className="text-white ms-6 boarder hover:bg-blue-600 bg-light-400 p-2 rounded-3xl mt-3">Dashboard</Link>
+                        {/* <Link to="/dashboard" className="text-white ms-6 boarder hover:bg-blue-600 bg-light-400 p-2 rounded-3xl mt-3">Dashboard</Link> */}
                         {!isAuth ?
                             <Link to="/auth/login">
                                 <button className="bg-blue-500 border hover:bg-blue-600 text-white py-2 px-4 rounded-full mt-2">
@@ -103,7 +103,7 @@ function Header() {
                 {isMobileMenuOpen && (
                     <div className="md:hidden bg-gray-800">
                         <div className="flex flex-col items-start space-x-4 px-4 py-10 border-t">
-                            <Link to="/dashboard" className="text-white ms-6">Dashboard</Link>
+                            {/* <Link to="/dashboard" className="text-white ms-6">Dashboard</Link> */}
                             {!isAuth ?
                                 <Link to="/auth/login">
                                     <button className="bg-blue-500 border hover:bg-red-600 text-white py-2 px-4 rounded-full mt-2">
