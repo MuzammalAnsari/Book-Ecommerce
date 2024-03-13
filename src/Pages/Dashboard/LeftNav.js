@@ -42,7 +42,7 @@ function Sidebar() {
                     <li className="mb-2">
                         <Link to="/dashboard/messages" className="text-gray-300 hover:text-white flex items-center">
                             <FaEnvelope className="mr-2" />
-                            <span className=''>Messages</span>
+                            <span className=''>Message</span>
                         </Link>
                     </li>
                     <li className="mb-2">
