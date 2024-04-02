@@ -133,8 +133,8 @@ function Header() {
                 }
             </header >
 
-            <nav className="bg-pink-100 text-white pt-[100px] pb-4">
-                <div className="container mx-auto flex justify-center space-x-4 text-black">
+            <nav className="bg-pink-100 text-white pt-[100px]">
+                <div className="container mx-auto flex justify-center space-x-4 text-black mt-6 ">
                     <Link to="/" className="hover:text-gray-500 text-2xl">Home</Link>
                     {/* <Link to="/categories">Categories</Link> */}
                     <Link to="/about" className="hover:text-gray-500 text-2xl">About </Link>

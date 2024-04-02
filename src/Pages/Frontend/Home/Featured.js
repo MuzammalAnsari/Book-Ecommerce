@@ -10,7 +10,7 @@ export default function Featured() {
                         <h1 className=' text-3xl '>
                             Featured This Week
                         </h1>
-                        <button className='border-b hover:bg-purple-600 p-3 rounded '>View All</button>
+                        <button className='border-b hover:bg-gray-300 hover:text-white p-3 rounded '>View All</button>
                     </div>
 
 
