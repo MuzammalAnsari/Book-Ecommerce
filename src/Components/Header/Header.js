@@ -135,10 +135,10 @@ function Header() {
 
             <nav className="bg-pink-100 text-white pt-[100px] pb-4">
                 <div className="container mx-auto flex justify-center space-x-4 text-black">
-                    <Link to="/">Home</Link>
+                    <Link to="/" className="hover:text-gray-500 text-2xl">Home</Link>
                     {/* <Link to="/categories">Categories</Link> */}
-                    <Link to="/about">About </Link>
-                    <Link to="/contact">Contact </Link>
+                    <Link to="/about" className="hover:text-gray-500 text-2xl">About </Link>
+                    <Link to="/contact" className="hover:text-gray-500 text-2xl">Contact </Link>
 
                     {/* <div
                         className="group relative"
