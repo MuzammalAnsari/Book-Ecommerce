@@ -24,7 +24,7 @@ export default function Featured() {
 
                             <div className=" lg:ms-11  mx-auto">
                                 <h2 className="text-3xl font-semibold">Product Name</h2>
-                                <p className="text-gray-600 text-2xl">Product Description</p>
+                                <p className="text-gray-600 text-2xl">Product Descriptiond</p>
                                 <p className="text-red-500 font-semibold text-2xl mt-2">$50.00</p>
                             </div>
                         </div>
