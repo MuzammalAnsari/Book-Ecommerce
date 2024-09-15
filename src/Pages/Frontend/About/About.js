@@ -4,9 +4,9 @@ import Information from '../Home/Information'
 export default function About() {
     return (
         <main>
-            <div className=' w-auto'>
+            <div className=' w-auto mt-4'>
                 <div className='text-center mx-[70px] relative'>
-                    <img src={hero} alt="hero" className='w-[100%] ' />
+                    <img src={hero} alt="hero" className='w-[100%] rounded-lg' />
 
                     <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white">
                         <h1 className='lg:text-5xl'>About</h1>

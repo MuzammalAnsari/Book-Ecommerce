@@ -1,6 +1,7 @@
 import React, { useContext, useState } from 'react'
-import SmokeGuy from "Assets/Pics/1222095-neon-mask-guy-with-green-smoke.jpg"
-import NeonGuy from "Assets/Pics/mask-guy-neon-man-with-smoke-bomb-4k-hi-1920x1080.jpg"
+import Harry from "Assets/Pics/harrry.jfif"
+import Tree from "Assets/Pics/tree.jfif"
+
 import bookSlides from 'Contexts/BooksContext'
 import { CartContext } from 'Contexts/CartContext'
 import { Link, useParams } from 'react-router-dom'
@@ -62,11 +63,11 @@ export default function LatestItems() {
 
             <div className='flex flex-col md:flex-row lg:flex-row mt-5 mx-9'>
                 <div className=' w-2/4 mx-3 sm:w-full'>
-                    <img className='' src={SmokeGuy} alt="" />
+                    <img className='w-full' src={Harry} alt="" />
                 </div>
 
                 <div className='w-2/4 mx-3 sm:w-full'>
-                    <img className='' src={NeonGuy} alt="" />
+                    <img  src={Tree} alt="" className="w-full"/>
                 </div>
             </div>
 

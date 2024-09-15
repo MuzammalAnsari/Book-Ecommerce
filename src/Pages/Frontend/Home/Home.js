@@ -5,13 +5,9 @@ import Featured from './Featured';
 import LatestItems from './LatestItems';
 import Information from './Information';
 
-// import Nun from "Assets/Pics/desktop-wallpaper-the-nun-background-page-1-valak-painting.jpg"
-// import Skull from "Assets/Pics/wp1998786.jpg"
-// import Girl from "Assets/Pics/depositphotos_171347662-stock-photo-illustration-scary-ghost-dark-horror.jpg"
-// import ColorChangingButton from './Button';
-
 
 export default function Home() {
+    
 
     let slides = [
         "https://i.pinimg.com/originals/51/82/ac/5182ac536727d576c78a9320ac62de30.jpg",

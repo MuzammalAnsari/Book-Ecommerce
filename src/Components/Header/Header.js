@@ -50,7 +50,7 @@ function Header() {
 
     return (
         <div>
-            <header className={`${isActive ? 'bg-white py-4 ' : 'bg-blue-500 py-6'}  fixed z-10 w-full `}>
+            <header className={`${isActive ? 'bg-white py-4 ' : ' bg-slate-100 py-6'}  fixed z-10 w-full `}>
                 <div className="container mx-auto flex justify-between items-center">
                     <div className="flex items-center space-x-4">
                         {/* Use Link for the home link */}

@@ -108,12 +108,13 @@ export default function Form() {
                             <div className='text-center flex p-3 p-md-4 text-2xl font-thin'>
                                 <h3 className='text-primary mt-1 mr-3'><BsWhatsapp /></h3>
                                 <a
-                                    href='https://wa.me/923137344892'
+                                    href='https://wa.me/12345678989'
                                     target='_blank'
                                     rel='noopener noreferrer'
                                     className='hover:text-red-500'
                                 >
-                                    03 137344892
+                                    {/* 03 137344892 */}
+                                    12345678989
                                 </a>
                             </div>
                         </div>
@@ -126,7 +127,7 @@ export default function Form() {
                                     rel='noopener noreferrer'
                                     className='hover:text-red-500'
                                 >
-                                    Airport Faisalabad
+                                    Faisalabad
                                 </a>
                             </div>
                         </div>
